@@ -37,7 +37,7 @@
                 <span class="mr-2">{{ nameUser }} </span> 
               </router-link>
               <router-link to="/profile" class="s-light">
-                <img :src="'http://localhost' + this.$store.getters.getUrlPhoto" class="rounded-circle mx-4" height="30" width="30" style="object-fit: cover">
+                <img :src="'http://backoffice.g06.batoilogic.es' + this.$store.getters.getUrlPhoto" class="rounded-circle mx-4" height="30" width="30" style="object-fit: cover">
               </router-link>
             </div>
           </v-col>
