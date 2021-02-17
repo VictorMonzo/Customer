@@ -184,6 +184,11 @@
 	  font-size: 40px;
   }
 
+  .overflow-hidden
+  {
+    overflow: hidden;
+  }
+
 
 /**
 * Orders
@@ -250,3 +255,37 @@
   align-items: center;
  }
  
+
+
+ @media (min-width: 1904px)
+{
+  .container {
+    max-width: 1500px!important;
+  }
+}
+
+@media (max-width: 767px)
+{
+  .about3 img,
+  #about img
+  {
+    width: 100%;
+  }
+
+  .v-slide-group__prev,
+  .v-slide-group__next
+  {
+    display: none!important;
+  }
+
+
+  .pa-4.flechas.v-item-group
+  {
+    padding: 0!important;
+  }
+
+  .product.v-card.v-card--link.v-sheet
+  {
+    margin: 0!important;
+  }
+}
