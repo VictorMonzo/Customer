@@ -3,7 +3,7 @@
     <v-row justify="center">
       <v-col cols="12" sm="6">
         <v-card max-width="500" class="mx-auto">
-          <v-img :src="'http://localhost' + user.photo" height="300px" dark>
+          <v-img :src="'http://backoffice.g06.batoilogic.es' + user.photo" height="300px" dark>
           </v-img>
 
           <v-card-title class="darken-1">
