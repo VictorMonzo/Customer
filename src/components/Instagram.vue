@@ -16,8 +16,7 @@
       <v-col
         v-for="(post, i) in posts"
         :key="i"
-        cols="3"
-        class="pa-0 instagram-grid"
+        class="pa-0 instagram-grid col-6 col-md-4 col-lg-3"
       >
         <v-card
           :href="post.href"
