@@ -89,7 +89,7 @@
                   <v-img
                     width="100%"
                     height="280"
-                    :src="'http://localhost' + product.photo"
+                    :src="'http://backoffice.g06.batoilogic.es' + product.photo"
                   ></v-img>
 
                   <v-card-title>{{ product.name }}</v-card-title>
