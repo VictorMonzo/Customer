@@ -1,0 +1,252 @@
+/**
+* App
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ *{font-family: 'Poppins', sans-serif;}
+ html {scroll-behavior: smooth;}
+
+ .links-nav
+ {    
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+  }
+ .userinfo
+ {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ 
+ /** TIPOGRAFÍA **/
+ h1{	font-size: 56px; line-height: 85px; font-weight: bold;}
+ h2{	font-size: 38px; line-height: 43px; font-weight: bold;}
+ h3{	font-size: 31px; line-height: 32px; font-weight: bold;}
+ h4{	font-size: 23px; line-height: 29px; font-weight: bold;}
+ p {	font-size: 17px; line-height: 27px; }
+ 
+ @media(max-width: 767px) {
+   h1{	font-size: 36px; line-height: 43px; font-weight: bold;}
+   h2{	font-size: 38px; line-height: 43px; font-weight: bold;}
+   h3{	font-size: 31px; line-height: 32px; font-weight: bold;}
+   h4{	font-size: 19px; line-height: 22px; font-weight: bold;}
+ }
+ 
+ .s-light {
+   color: #fff;
+   text-decoration: none;
+   text-transform: capitalize;
+ }
+ 
+ .s-light:hover {
+   color: #e54b4b;
+ }
+
+
+/**  
+* About
+ */
+  .portada-about {
+    height: calc(80vh - 76px);
+    min-height: 500px;
+    background: linear-gradient(to right, #1e1e1e3f 0%, #e54b4b44 100%);
+    overflow: hidden;
+    position: relative;
+  }
+
+  #video-background {
+      left: 0;
+      width: 100%!important;
+      height: 100%;
+      z-index: -100;
+      filter: grayscale(1);
+      object-fit: cover;     
+  }
+
+  .content-video {
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+  }
+
+
+/**
+* Home
+*/
+  #about {
+    padding: 80px 20px;
+  }
+
+  .bg-danger {
+    background-color: #e54b4b !important;
+  }
+  .about2, .instagram-1 {
+    padding: 80px 20px;
+    color: #fff;
+  }
+  
+  #about .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .btn-light {
+    background-color: #fafaff !important;
+    border: 1px solid #fafaff;
+  }
+
+  .text-light {
+    color: #fafaff !important;
+  }
+
+  .btn-light:hover,
+  .btn-light:focus,
+  .btn-light:active {
+    background-color: transparent !important;
+    border-color: #fafaff !important;
+    box-shadow: none !important;
+    color: #fafaff !important;
+  }
+  
+  .btn-primary {
+    background-color: #2b59c3 !important;
+    border: 1px solid #2b59c3;
+    color: #fff!important;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active {
+    background-color: transparent !important;
+    border: 1px solid #2b59c3 !important;
+    box-shadow: none !important;
+    color: #2b59c3 !important;
+  }
+  
+  .bg-dark {
+    background-color: #1e1e1e;
+  }
+  
+  .instagram-grid .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .instagram-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    transition: 1s;
+  }
+  
+  .instagram-grid i:nth-child(2) {
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+    font-size: 30px;
+    transform: translateY(-100px);
+  
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    opacity: 0;
+    transition: 1s;
+  }
+  
+  .instagram-grid .item:hover img {
+    filter: brightness(0.5) grayscale(0.3);
+    transform: scale(1.1);
+  }
+  .instagram-grid .item:hover i:nth-child(2) {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .about3 i {
+	  font-size: 40px;
+  }
+
+
+/**
+* Orders
+ */
+ .s-light {
+  color: #fff !important;
+  text-decoration: none;
+  }
+
+  .s-red {
+    background-color: #e54b4b;
+  }
+
+
+/**
+* Products
+ */
+ @media (min-width: 960px)
+ {
+   .filter {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+   }
+ 
+   .filter .v-chip {
+     margin: 5px 0;
+   }
+ 
+   .filter .title-chip2 {
+     padding-top: 25px;
+   }
+ }
+ 
+ .filter .title-chip1 {
+   display: block;
+ }
+ 
+ .filter .title-chip2 {
+   display: block;
+   margin-top: 20px;
+ }
+ 
+ .product {
+   overflow: hidden;
+   padding: 20px;
+ }
+ 
+ .product.v-slide-item--active {
+   color: #fff!important;
+ }
+ 
+ .product.v-slide-item--active button {
+   display: none!important;
+ }
+
+ .page-404
+ {
+  height: 70vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+ }
+ 
