@@ -6,8 +6,10 @@ Esta es la aplicación final para el cliente donde podrá logearse y registrarse
 ## Instalación del proyecto y despliegue
 1. Git clone del repositorio
 2. Crear una rama, programar en ella y en terminar subirla
-3. Ejecutar comando sh customer.sh
-
+3. Ejecutar comando 
+      ``
+        sh customer.sh
+      ``
 ## Ip de la máquina y políticas de seguridad aplicadas (Puertos abiertos)
 ###### IP pública 
 34.207.156.33
