@@ -3,6 +3,11 @@
 ## Descripción del proyecto
 Esta es la aplicación final para el cliente donde podrá logearse y registrarse, hacer pedidos de nuestros porductos y hacer el seguimiento de estos. Tabmbién puede modificar su perfil y ver una página sobre la empresa (About).
 
+## Instalación del proyecto y despliegue
+1. Git clone del repositorio
+2. Crear una rama, programar en ella y en terminar subirla
+3. Ejecutar comando sh customer.sh
+
 ## Ip de la máquina y políticas de seguridad aplicadas (Puertos abiertos)
 ###### IP pública 
 34.207.156.33
